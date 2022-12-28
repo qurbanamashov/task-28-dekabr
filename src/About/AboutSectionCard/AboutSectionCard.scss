@@ -1,0 +1,43 @@
+.AboutCard{
+    width: 100%;
+    padding: 80px 0;
+    .AboutCard-text_width{
+       max-width: 500px ;
+       margin: 0 auto;
+       text-align: center;
+       padding: 0 20px 50px 20px;
+       h2{
+        font-size: 40px;
+       }
+       p{
+        font-size: 18px
+       }
+    }
+    .AboutCard-width{
+        max-width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .card{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            border: 0 solid ;
+            align-items: center;
+            img{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+@media screen and (max-width:950px) {
+    .AboutCard{
+        .AboutCard-width{
+            flex-wrap: wrap;
+            row-gap: 30px;
+        }
+    }
+}

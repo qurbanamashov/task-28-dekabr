@@ -1,0 +1,26 @@
+.section_text{
+    width: 100%;
+    padding: 100px 0;
+    background-color: rgb(207, 207, 207);
+    .textone{
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 30px ;
+    }
+    .texttwo{
+        max-width: 260px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        img{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        P{
+            color: blue;
+        }
+    }
+}

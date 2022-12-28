@@ -1,0 +1,32 @@
+.aboutHeader{
+    width: 100%;
+    padding: 150px 0;
+    .header_width{
+        padding: 0 10px;
+        max-width: 620px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+        h2{
+            font-size: 40px;
+            font-weight: 700;
+        }
+        button{
+            width: 160px;
+            height: 50px;
+            background-color: rgb(53, 116, 234);
+            color: white;
+            font-size: 20px;
+            border: 0 solid;
+            border-radius: 7px;
+            &:hover{
+                border: 1px solid rgb(53, 116, 234);
+                background-color: white;
+                color: rgb(53, 116, 234);
+            }
+        }
+    }
+}
